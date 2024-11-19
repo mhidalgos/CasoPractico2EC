@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Título de la página que aparecerá en la pestaña del navegador -->
+        <title>Extremadura Burguer</title>
+        <!-- Enlace al archivo CSS con los estilos definidos -->
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        <!-- Encabezado de la página -->
+        <header>
+            <h1>EXTREMADURA BURGUER</h1>
+        </header>
+        <!-- Buscador -->
+        <div class="search-container">
+            <input type="text" placeholder="Buscar...">
+            <button>Buscar</button>
+        </div>
+        <!-- Grid para mostrar los productos del restaurante -->
+        <div class="product-grid">
+            <div class="product">
+                <h3>Hamburguesa de Ternera Extremeña</h3>
+                <p>Hamburguesa de ternera extremeña, con ingredientes frescos y salsa especial que realza su sabor auténtico.</p>
+                <div class="search-container">
+                    <button onclick="mostrarMensaje('Añadida Hamburguesa de Ternera Extremeña')">Añadir</button>
+                </div>
+            </div>
+            <div class="product">
+                <h3>Hamburguesa Vegana de la Dehesa</h3>
+                <p>Una deliciosa alternativa vegana, hecha con garbanzos, quinoa y especias de la Dehesa extremeña. </p>
+                <div class="search-container">
+                    <button onclick="mostrarMensaje('Añadida Hamburguesa Vegana de la Dehesa')">Añadir</button>
+                </div>
+            </div>
+            <div class="product">
+                <h3>Hamburguesa de Pollo Crujiente</h3>
+                <p>Pechuga de pollo crujiente bañada en salsa barbacoa, acompañada de lechuga, tomate y queso cheddar fundido. </p>
+                <div class="search-container">
+                    <button onclick="mostrarMensaje('Añadida Hamburguesa de Pollo Crujiente')">Añadir</button>
+                </div>
+            </div>
+         
+        </div>
+        <!-- Pie de página -->
+        <footer>
+            <p>© 2024. Todos los derechos reservados</p>
+        </footer>
+        <!-- Enlace al documento JavaScript donde se definen las funciones utilizadas -->
+        <script src="/js/script.js"></script>
+    </body>
+</html>
